@@ -1,0 +1,71 @@
+/* десктоп */
+
+.hero {
+  position: relative;
+  width: 1400px;
+  min-height: 6115px;
+  background: #D7E0EB;
+  margin: 0 auto;
+}
+
+/* главная */
+
+.main {
+  position: absolute;
+  width: 1400px;
+  height: 1144px;
+  left: 0px;
+  top: 0px;
+
+  background-image: url("../img/main.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  left: 18px;   /* X */
+  top: 23px;    /* Y */
+
+  font-family: 'Geologica', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 28px;
+  line-height: normal;
+
+  letter-spacing: 0.06em; /* 6% */
+  color: #2D2D2D;
+}
+
+
+/* контакты */
+
+.contacts {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* пример для BBK-IT, если нужен */
+
+.bbk-it {
+  position: absolute;
+  left: -65px;
+  top: 42px;
+
+  font-family: 'Geologica';
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.06em;
+  color: #2D2D2D;
+}
