@@ -30,7 +30,8 @@
   text-align: center;
 }
 
-.logo {
+/* BBK IT */
+.logo_BBK {
   position: absolute;
   left: 18px;   /* X */
   top: 23px;    /* Y */
@@ -41,6 +42,37 @@
   line-height: normal;
 
   letter-spacing: 0.06em; /* 6% */
+  color: #2D2D2D;
+}
+
+/* Better Business Kontrol IT */
+.logo_Better {
+  position: absolute;
+  left: 18px;   /* X */
+  top: 73px;    /* Y */
+
+  font-family: 'Geologica', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 10px;
+  line-height: normal;
+
+  letter-spacing: 0.02em; /* 2% */
+  color: #2D2D2D;
+}
+
+/* Main title */
+.main-title {
+  position: absolute;
+  left: 18px;   /* X */
+  top: 302px;   /* Y */
+  width: 749px; /* W */
+
+  font-family: 'Geologica', sans-serif;
+  font-weight: 600; /* Medium Bold */
+  font-size: 60px;
+  line-height: 70px;
+
+  letter-spacing: 0.02em; /* 2% */
   color: #2D2D2D;
 }
 
@@ -56,16 +88,3 @@
   box-sizing: border-box;
 }
 
-/* пример для BBK-IT, если нужен */
-
-.bbk-it {
-  position: absolute;
-  left: -65px;
-  top: 42px;
-
-  font-family: 'Geologica';
-  font-weight: 700;
-  font-size: 40px;
-  letter-spacing: 0.06em;
-  color: #2D2D2D;
-}
