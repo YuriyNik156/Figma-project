@@ -33,8 +33,8 @@
 /* BBK IT */
 .logo_BBK {
   position: absolute;
-  left: 18px;   /* X */
-  top: 23px;    /* Y */
+  left: 37px;   /* X */
+  top: 42px;    /* Y */
 
   font-family: 'Geologica', sans-serif;
   font-weight: 700; /* Bold */
@@ -48,7 +48,7 @@
 /* Better Business Kontrol IT */
 .logo_Better {
   position: absolute;
-  left: 18px;   /* X */
+  left: 40px;   /* X */
   top: 73px;    /* Y */
 
   font-family: 'Geologica', sans-serif;
@@ -63,17 +63,137 @@
 /* Main title */
 .main-title {
   position: absolute;
-  left: 18px;   /* X */
-  top: 302px;   /* Y */
-  width: 749px; /* W */
+  left: 47px;
+  top: 302px;
+  width: 749px;
 
   font-family: 'Geologica', sans-serif;
-  font-weight: 600; /* Medium Bold */
+  font-weight: 600;
   font-size: 60px;
   line-height: 70px;
-
-  letter-spacing: 0.02em; /* 2% */
+  letter-spacing: 0.02em;
   color: #2D2D2D;
+
+  text-align: left;  /* ← выравнивание по левому краю */
+}
+
+/* Main subtitle */
+.main-subtitle {
+  position: absolute;
+  left: 47px;
+  top: 599px; /* ← было 599px — сдвинули ближе */
+
+  width: 650px;
+
+  font-family: 'Geologica Cursive', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2D2D2D;
+
+  text-align: left;  /* ← выравнивание по левому краю */
+}
+
+/* хедер */
+/* Общий контейнер меню в рамке */
+.header-rectangle-3 {
+  position: absolute;
+  left: 402px;
+  top: 30px;
+
+  width: 956px;
+  height: 50px;
+
+  border-radius: 25px;
+  border: 2px solid #2D2D2D;
+  background-color: transparent;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Rectangle 3 */
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 32px; /* расстояние между кнопками (можно подправить под Figma) */
+  padding: 0 25px; /* внутренние отступы как в Figma */
+}
+
+/* Обычные кнопки меню */
+.header-item {
+  font-family: 'Geologica', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #2D2D2D;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Белая кнопка (Frame 3) */
+.header-btn {
+  width: 150px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #FFFFFF;
+  font-family: 'Geologica', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
+  background: rgba(0,0,0,0.001);
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: inset 0px 4px 8px rgba(255,255,255,0.3);
+  border-radius: 30px;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+
+/* Логотипный блок (Текст верх / Rectangle 6) */
+.logo-frame {
+  position: absolute;
+  left: 41px;
+  top: 148px;
+
+  width: 433px;
+  height: 99px;
+
+  background: rgba(250, 250, 238, 0.3);
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;        /* одинаковый отступ между картинкой и текстом */
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+/* Изображение (лого-кластер) */
+.logo-image {
+  position: static;     /* убираем absolute */
+  width: 108.78px;
+  height: 67.47px;
+  object-fit: contain;
+}
+
+/* Текст логотипа */
+.logo-text {
+  position: static;     /* тоже убираем absolute */
+  font-family: 'Geologica', sans-serif;
+  font-size: 24px;
+  line-height: 25px;
+  color: #2D2D2D;
+  display: flex;
+  align-items: center;
 }
 
 
