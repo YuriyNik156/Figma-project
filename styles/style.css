@@ -322,6 +322,87 @@
 }
 
 
+/* Блок О компании */
+.about {
+  position: absolute;
+  left: 0;
+  top: 970px; /* как в макете — точка начала секции */
+  width: 1400px; /* ширина героя */
+  height: auto;
+}
+
+/* Заголовок: "о компании" */
+.about-title {
+  position: absolute;
+  left: 39px;
+  top: 0;
+
+  width: 592px;
+  height: 90px;
+
+  font-family: 'Geologica', sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #2D2D2D;
+  margin: 0;
+}
+
+/* Подзаголовок: первый абзац */
+.about-subtitle {
+  position: absolute;
+  left: 39px;
+  top: 106px;
+
+  width: 643px;
+
+  font-family: 'Geologica Cursive', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #2D2D2D;
+  margin: 0;
+}
+
+/* Правый текстовый блок */
+.about-text {
+  position: absolute;
+  left: 710px;
+  top: 183px;
+
+  width: 650px;
+
+  font-family: 'Geologica Cursive', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #2D2D2D;
+  margin: 0;
+}
+
+
+/* Картинка 2 */
+.image2 {
+    position: absolute;
+    width: 1539.85px;
+    height: 1539.85px;
+    left: 0px;
+    top: 1000px;
+
+    background: url('../img/picture2.png') no-repeat center/cover;
+    opacity: 0.6;
+
+    transform: rotate(0deg);
+    pointer-events: none; /* чтобы не мешало кликам поверх */
+}
+
+
+
 /* контакты */
 
 .contacts {
@@ -332,4 +413,3 @@
   padding: 40px 20px;
   box-sizing: border-box;
 }
-
