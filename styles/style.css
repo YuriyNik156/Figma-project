@@ -64,7 +64,7 @@
 .main-title {
   position: absolute;
   left: 47px;
-  top: 302px;
+  top: 282px;
   width: 749px;
 
   font-family: 'Geologica', sans-serif;
@@ -73,6 +73,7 @@
   line-height: 70px;
   letter-spacing: 0.02em;
   color: #2D2D2D;
+  text-transform: uppercase;
 
   text-align: left;  /* ← выравнивание по левому краю */
 }
