@@ -670,6 +670,7 @@
 
 /* Подложка */
 .advantages-background {
+    z-index: 2;
     position: absolute;
     width: 985px;
     height: 680px;
@@ -687,9 +688,28 @@
     align-items: center;
 }
 
+/* Rectangle 27 — фон под преимуществами */
+.advantages-rectangle {
+    z-index: 1;
+    position: absolute;
+    width: 926px;
+    height: 633px;
+    left: calc(50% - 596px/2 + 0.5px);
+    top: calc(50% - 993px/2 + 0.5px);
+
+    background: #D7E0EB;
+    opacity: 0.85;
+    border-radius: 30px;
+
+    /* чтобы элементы внутри не прилипали к краю */
+    box-sizing: border-box;
+}
+
 
 /* Сетка преимуществ */
 .advantages-grid {
+    z-index: 3;
+    position: relative;
     width: 90%;
     height: 90%;
 
