@@ -651,3 +651,94 @@
     pointer-events: none; /* чтобы не мешало кликам поверх */
     background-size: contain;
 }
+
+
+/* Заголовок секции */
+.advantages-title {
+    position: absolute;
+    left: 36px;
+    top: 2231px;
+    text-transform: uppercase;
+
+    font-family: 'Geologica';
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 90px;
+    color: #2D2D2D;
+}
+
+
+/* Подложка */
+.advantages-background {
+    position: absolute;
+    width: 985px;
+    height: 680px;
+    left: 373px;
+    top: 2517px;
+
+    background: rgba(250, 250, 238, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0px 4px 8px rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Сетка преимуществ */
+.advantages-grid {
+    width: 90%;
+    height: 90%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 40px 60px;
+}
+
+
+/* Каждый пункт */
+.advantage-item {
+    position: relative;
+    padding-left: 80px;
+}
+
+
+/* Иконки */
+.advantage-icon {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    object-fit: contain; /* чтобы картинка красиво влезала */
+}
+
+
+
+/* Заголовок */
+.advantage-title {
+    font-family: 'Geologica Cursive';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #2D2D2D;
+    margin: 0 0 10px 0;
+}
+
+
+/* Текст */
+.advantage-text {
+    font-family: 'Geologica Cursive';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #2D2D2D;
+    margin: 0;
+    width: 360px;
+}
