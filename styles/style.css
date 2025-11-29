@@ -428,7 +428,8 @@
 }
 
 
-/* Карточка услуг, ИИ-юристы, рамка */
+/* Карточка услуг */
+/* ИИ-юристы */
 .service-card {
   width: 315px;
   height: 235px;
@@ -443,7 +444,6 @@
   position: absolute;
 }
 
-/* Карточка услуг, ИИ-юристы, заголовок */
 .service-card-title {
   font-family: 'Geologica Cursive';
   font-style: normal;
@@ -455,7 +455,6 @@
   margin: 0 0 20px 0;
 }
 
-/* Карточка услуг, ИИ-юристы, текст */
 .service-card-text {
   font-family: 'Geologica Cursive';
   font-style: normal;
@@ -466,7 +465,8 @@
   margin: 0;
 }
 
-/* Карточка услуг, ИИ-аналитика, рамка  */
+
+/* ИИ-аналитика */
 .analytics-card {
   position: absolute;
   width: 315px;
@@ -481,7 +481,6 @@
   box-sizing: border-box;
 }
 
-/* Карточка услуг, ИИ-аналитика, заголовок */
 .analytics-card .service-card-title {
   font-family: 'Geologica Cursive';
   font-style: normal;
@@ -493,7 +492,6 @@
   margin: 0 0 20px 0;
 }
 
-/* Карточка услуг, ИИ-аналитика, текст */
 .analytics-card .service-card-text {
   font-family: 'Geologica Cursive';
   font-style: normal;
@@ -577,4 +575,63 @@
   line-height: 20px;
   color: #2D2D2D;
   margin: 0;
+}
+
+
+/* Общий стиль карточек */
+.service-card {
+  width: 315px; /* по умолчанию, если нужно — переопределяй */
+  background: rgba(250, 250, 238, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 4px 8px rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 25px 30px;
+  box-sizing: border-box;
+  backdrop-filter: blur(2px);
+}
+
+/* Широкие карточки (две нижние) */
+.wide-card {
+  width: 650px;
+  height: auto;
+}
+
+/* Заголовок */
+.service-title {
+  font-family: 'Geologica Cursive', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  margin: 0 0 20px 0;
+}
+
+/* Описание */
+.service-description {
+  font-family: 'Geolica Cursive', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D2D2D;
+  margin: 0;
+  max-width: 530px;
+}
+
+/* ИИ-менеджеры (нижняя левая широкая) */
+.card-managers {
+  position: absolute;
+  width: 650px;
+  height: 175px;
+  left: 40px;
+  top: 2006px;
+}
+
+/* Коллтрекинг и аналитика звонков (нижняя правая широкая) */
+.card-calltracking {
+  position: absolute;
+  width: 650px;
+  height: 175px;
+  left: 710px;
+  top: 2006px;
 }
