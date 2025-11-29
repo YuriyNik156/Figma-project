@@ -1,7 +1,7 @@
 /* десктоп */
 
 .hero {
-  position: relative;
+  position: absolute;
   width: 1400px;
   min-height: 6115px;
   background: #D7E0EB;
@@ -427,15 +427,40 @@
 }
 
 
-
-
-/* контакты */
-
-.contacts {
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 40px 20px;
+/* Карточка услуг, рамка */
+.service-card {
+  width: 315px;
+  height: 235px;
+  right: 40px;
+  top: 1536px;
+  background: rgba(250, 250, 238, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 4px 8px rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding: 25px 20px;
   box-sizing: border-box;
+  position: absolute;
+}
+
+/* Карточка услуг, заголовок */
+.service-card-title {
+  font-family: 'Geologica Cursive';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  margin: 0 0 20px 0;
+}
+
+/* Карточка услуг, текст */
+.service-card-text {
+  font-family: 'Geologica Cursive';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D2D2D;
+  margin: 0;
 }
