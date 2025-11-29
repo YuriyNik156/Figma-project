@@ -503,3 +503,78 @@
   color: #2D2D2D;
   margin: 0;
 }
+
+
+/* Внедрение ИИ-ассистентов */
+.ai-assist {
+  position: absolute;
+  width: 650px;
+  height: 195px;
+  left: 375px;
+  top: 1791px;
+
+  background: rgba(250, 250, 238, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 4px 8px rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+
+  padding: 25px 25px;
+  box-sizing: border-box;
+}
+
+.ai-assist .service-card-title {
+  font-family: 'Geologica Cursive';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  margin: 0 0 20px 0;
+}
+
+.ai-assist .service-card-text {
+  font-family: 'Geologica Cursive';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D2D2D;
+  margin: 0;
+  max-width: 570px;
+}
+
+
+/* ИИ-коллцентр */
+.ai-callcenter {
+  position: absolute;
+  width: 315px;
+  height: 195px;
+  left: 1045px;
+  top: 1791px;
+
+  background: rgba(250, 250, 238, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0px 4px 8px rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+
+  padding: 25px 20px;
+  box-sizing: border-box;
+}
+
+.ai-callcenter .service-card-title {
+  font-family: 'Geologica Cursive';
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  margin: 0 0 20px 0;
+}
+
+.ai-callcenter .service-card-text {
+  font-family: 'Geologica Cursive';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2D2D2D;
+  margin: 0;
+}
