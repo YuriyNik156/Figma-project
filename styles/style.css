@@ -640,14 +640,14 @@
 /* фон */
 .background {
     position: absolute;
-    width: 1152px;
+    width: 1400px;
     height: 1529px;
     left: 0px;
     top: 2349px;
 
     background: url('../img/background.png') no-repeat center/cover;
-    opacity: 0.6;
 
     transform: rotate(0deg);
     pointer-events: none; /* чтобы не мешало кликам поверх */
+    background-size: contain;
 }
