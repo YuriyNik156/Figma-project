@@ -781,8 +781,6 @@
 }
 
 
-
-
 /* === ТОЧКА 1 === */
 .point1-bg {
     position: absolute;
@@ -901,4 +899,64 @@
     font-size: 16px;
     line-height: 20px;
     color: #D7E0EB;
+}
+
+
+/* Общий стиль для всех линий */
+.line {
+    position: absolute;
+    width: 0;
+    border-left: 1px dashed #2D2D2D;
+}
+
+/* Линия 1 — от точки 1 вниз */
+.line1 {
+    left: 116.5px;   /* макет Figma */
+    top: 3668px;
+    height: 79px;
+}
+
+/* Линия 2 — от точки 2 вниз */
+.line2 {
+    left: 436.5px;
+    top: 3473px;
+    height: 79px;
+}
+
+/* Линия 3 — от точки 3 вниз */
+.line3 {
+    left: 794.5px;
+    top: 3473px;
+    height: 79px;
+}
+
+/* Линия 4 — от точки 4 вниз */
+.line4 {
+    left: 793.5px;
+    top: 3833px;
+    height: 79px;
+}
+
+/* Линия 5 — от точки 5 вниз */
+.line5 {
+    left: 436.5px;
+    top: 3833px;
+    height: 79px;
+}
+
+.line-horizontal {
+    position: absolute;
+    width: 1000px;
+    height: 360px;
+    left: 116px;
+    top: 3458px;
+
+    /* градиентная обводка */
+    border-radius: 40%;
+
+    /* градиентная обводка через фон и прозрачный центр */
+    background: conic-gradient(#2D2D2D 0.69%, #FAFAEE 50.07%, #2D2D2D 99.46%);
+    -webkit-mask: radial-gradient(farthest-side, #000 0, #000 calc(100% - 5px), transparent 100%);
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect; /* для Firefox */
 }
