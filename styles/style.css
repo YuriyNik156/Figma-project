@@ -1025,3 +1025,24 @@
     left: 371px;
     top: 3932.5px;
 }
+
+
+/* Закрываем задачи, текст */
+.close-tasks {
+    position: absolute;
+    width: 928px;
+    height: 56px;
+    left: calc(50% - 928px/2 - 202px);
+    top: 4237.5px;
+
+    font-family: 'Geologica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #2D2D2D;
+}
+
