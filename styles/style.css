@@ -1,5 +1,3 @@
-/* десктоп */
-
 .hero {
   width: 1400px;
   min-height: 6115px;
@@ -37,6 +35,7 @@
   left: 37px;   /* X */
   top: 42px;    /* Y */
 
+/* десктоп */
   font-family: 'Geologica', sans-serif;
   font-weight: 700; /* Bold */
   font-size: 28px;
@@ -178,6 +177,7 @@
   padding-left: 25px;
   box-sizing: border-box;
 }
+
 
 /* Изображение (лого-кластер) */
 .logo-image {
@@ -643,7 +643,7 @@
     width: 1400px;
     height: 1529px;
     left: 0px;
-    top: 2349px;
+    top: 2149px;
 
     background: url('../img/background.png') no-repeat center/cover;
 
@@ -761,4 +761,144 @@
     color: #2D2D2D;
     margin: 0;
     width: 360px;
+}
+
+
+/* Картинка */
+.picture-block {
+  position: absolute;
+  width: 660px;
+  height: 541px;
+  left: 756px;
+  top: 3618px;
+
+  background-image: url('../img/picture.png'); /* путь к твоему файлу */
+  background-size: cover;    /* картинка растягивается как в макете */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 0.6;
+}
+
+
+
+
+/* === ТОЧКА 1 === */
+.point1-bg {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 76px;
+    top: 3638px;
+    background: #2D2D2D;
+    border-radius: 22.5px;
+}
+
+.point1-text {
+    position: absolute;
+    width: 18px;
+    height: 11px;
+    left: 107px;
+    top: 3647px;
+    font-family: 'Geologica Cursive';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #D7E0EB;
+}
+
+/* === ТОЧКА 2 === */
+.point2-bg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 422px;
+    top: 3443px;
+    background: #2D2D2D;
+    border-radius: 50%;
+}
+
+.point2-text {
+    position: absolute;
+    width: 21px;
+    height: 11px;
+    left: 427px;
+    top: 3452px;
+    font-family: 'Geologica Cursive';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #D7E0EB;
+}
+
+/* === ТОЧКА 3 === */
+.point3-bg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 779px;
+    top: 3443px;
+    background: #2D2D2D;
+    border-radius: 50%;
+}
+
+.point3-text {
+    position: absolute;
+    width: 21px;
+    height: 11px;
+    left: 784px;
+    top: 3452px;
+    font-family: 'Geologica Cursive';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #D7E0EB;
+}
+
+/* === ТОЧКА 4 === */
+.point4-bg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 779px;
+    top: 3803px;
+    background: #2D2D2D;
+    border-radius: 50%;
+}
+
+.point4-text {
+    position: absolute;
+    width: 21px;
+    height: 11px;
+    left: 783px;
+    top: 3812px;
+    font-family: 'Geologica Cursive';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #D7E0EB;
+}
+
+/* === ТОЧКА 5 === */
+.point5-bg {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 422px;
+    top: 3803px;
+    background: #2D2D2D;
+    border-radius: 50%;
+}
+
+.point5-text {
+    position: absolute;
+    width: 21px;
+    height: 11px;
+    left: 426px;
+    top: 3812px;
+    font-family: 'Geologica Cursive';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #D7E0EB;
 }
