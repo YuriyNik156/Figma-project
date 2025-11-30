@@ -947,16 +947,13 @@
 .line-horizontal {
     position: absolute;
     width: 1000px;
-    height: 360px;
+    height: 380px;
     left: 116px;
-    top: 3458px;
+    top: 3448px;
 
-    /* градиентная обводка */
-    border-radius: 40%;
 
-    /* градиентная обводка через фон и прозрачный центр */
-    background: conic-gradient(#2D2D2D 0.69%, #FAFAEE 50.07%, #2D2D2D 99.46%);
-    -webkit-mask: radial-gradient(farthest-side, #000 0, #000 calc(100% - 5px), transparent 100%);
-    -webkit-mask-composite: destination-in;
-    mask-composite: intersect; /* для Firefox */
+    border-radius: 50%;
+
+    border-left: 1px dashed #2D2D2D;
+    border-right: 1px dashed #2D2D2D;
 }
