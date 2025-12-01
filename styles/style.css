@@ -1365,3 +1365,106 @@
 
     background: url('../img/telegram.png') no-repeat center/contain;
 }
+
+
+/* Карта сайта */
+/* Главная */
+.map-main {
+    position: absolute;
+    width: 69px;
+    height: 11px;
+    left: 40px;
+    top: 5709px;
+
+    font-family: 'Geologica';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #2D2D2D;
+}
+
+
+/* О компании */
+.map-about {
+    position: absolute;
+    width: 102px;
+    height: 11px;
+    left: 40px;
+    top: 5745px;
+
+    font-family: 'Geologica';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #2D2D2D;
+}
+
+
+/* Наши услуги */
+.map-services {
+    position: absolute;
+    width: 107px;
+    height: 11px;
+    left: 40px;
+    top: 5781px;
+
+    font-family: 'Geologica';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #2D2D2D;
+}
+
+
+/* Преимущества */
+.map-advantages {
+    position: absolute;
+    width: 127px;
+    height: 11px;
+    left: 222px;
+    top: 5709px;
+
+    font-family: 'Geologica';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #2D2D2D;
+}
+
+
+/* Этапы работы */
+.map-stages {
+    position: absolute;
+    width: 118px;
+    height: 11px;
+    left: 222px;
+    top: 5745px;
+
+    font-family: 'Geologica';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #2D2D2D;
+}
+
+
+/* Партнеры */
+.map-partners {
+    position: absolute;
+    width: 85px;
+    height: 11px;
+    left: 222px;
+    top: 5781px;
+
+    font-family: 'Geologica';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #2D2D2D;
+}
