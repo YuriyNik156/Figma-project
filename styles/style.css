@@ -1164,7 +1164,7 @@
     width: 1094px;
     height: 56px;
     left: calc(50% - 1094px/2 - 115px);
-    top: 4978.34px;
+    top: 4878.34px;
 
     font-family: 'Geologica';
     font-style: normal;
@@ -1176,3 +1176,68 @@
     color: #2D2D2D;
 }
 
+
+/* логотипы партнеров */
+.partners-logos {
+    position: relative;
+}
+
+/* ЛОГО 6 */
+.logo6 {
+    position: absolute;
+    width: 415px;
+    height: 163px;
+    left: -115px;
+    top: 5074.34px;
+    background: url('../img/logo6.png') no-repeat center/contain;
+}
+
+/* ЛОГО 5 */
+.logo5 {
+    position: absolute;
+    width: 716px;
+    height: 163px;
+    left: 225px;
+    top: 5074.34px;
+    background: url('../img/logo5.png') no-repeat center/contain;
+}
+
+/* ЛОГО 4 */
+.logo4 {
+    position: absolute;
+    width: 490px;
+    height: 163px;
+    left: 946px;
+    top: 5074.34px;
+    background: url('../img/logo4.png') no-repeat center/contain;
+}
+
+/* ЛОГО 1 */
+.logo1 {
+    position: absolute;
+    width: 508px;
+    height: 163px;
+    left: -178px;
+    top: 5282.34px;
+    background: url('../img/logo1.png') no-repeat center/contain;
+}
+
+/* ЛОГО 3 */
+.logo3 {
+    position: absolute;
+    width: 515px;
+    height: 163px;
+    left: 190px;
+    top: 5282.34px;
+    background: url('../img/logo3.png') no-repeat center/contain;
+}
+
+/* ЛОГО 2 */
+.logo2 {
+    position: absolute;
+    width: 471px;
+    height: 163px;
+    left: 750px;
+    top: 5282.34px;
+    background: url('../img/logo2.png') no-repeat center/contain;
+}
