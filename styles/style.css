@@ -13,8 +13,11 @@
 
   .hero {
     width: 360px;
-    min-height: auto;
+    min-height: 5126px;
     background: #D7E0EB;
+
+    margin: 0 auto;
+    position: relative;
   }
 }
 
@@ -40,7 +43,6 @@
   text-align: center;
 }
 
-/* мобильная версия */
 /* мобильная версия */
 @media (max-width: 480px) {
   .main {
