@@ -1158,4 +1158,21 @@
     color: #FFFFFF;
 }
 
+/* с нами сотрудничают: текст */
+.partners-title {
+    position: absolute;
+    width: 1094px;
+    height: 56px;
+    left: calc(50% - 1094px/2 - 115px);
+    top: 4978.34px;
+
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2D2D2D;
+}
 
