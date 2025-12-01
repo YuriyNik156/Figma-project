@@ -71,6 +71,27 @@
   color: #2D2D2D;
 }
 
+@media (max-width: 480px) {
+
+  .logo_BBK {
+    left: 16px;
+    top: 20px;
+
+    font-size: 28px;
+    letter-spacing: 0.05em;
+  }
+
+  .logo_Better {
+    left: 18px;
+    top: 45px;
+
+    font-size: 7px;    
+    letter-spacing: 0.02em;
+  }
+
+}
+
+
 /* Main title */
 .main-title {
   position: absolute;
