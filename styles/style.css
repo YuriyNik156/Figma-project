@@ -1241,3 +1241,98 @@
     top: 5282.34px;
     background: url('../img/logo2.png') no-repeat center/contain;
 }
+
+.contact-section {
+    width: 100%;
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.contact-title {
+    font-family: 'Geologica';
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 1.12;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2D2D2D;
+    margin-bottom: 80px;
+}
+
+/* связаться с нами: */
+.contact-title {
+    position: absolute;
+    width: 865px;
+    height: 56px;
+    left: calc(50% - 865px/2 - 2.5px);
+    top: 5565.34px;
+
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    /* темный */
+    color: #2D2D2D;
+}
+
+
+/* BBK IT логотип */
+.company-logo {
+    position: absolute;
+    width: 1396px;
+    height: 294px;
+    left: calc(50% - 1391px/2 - 3px);
+    top: 5835.64px;
+}
+
+.company-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* телефон */
+.contact-phone {
+    position: absolute;
+    width: 289px;
+    height: 24px;
+    left: calc(50% - 289px/2 + 515.5px);
+    top: calc(50% - 24px/2 + 2669.5px);
+
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #2D2D2D;
+}
+
+
+/* email */
+.contact-email {
+    position: absolute;
+    width: 318px;
+    height: 24px;
+    left: calc(50% - 318px/2 + 501px);
+    top: calc(50% - 24px/2 + 2722.5px);
+
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #2D2D2D;
+}
