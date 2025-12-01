@@ -16,7 +16,7 @@
     min-height: auto;
     background: #D7E0EB;
   }
- }
+}
 
 /* главная */
 
@@ -39,6 +39,32 @@
   color: white;
   text-align: center;
 }
+
+/* мобильная версия */
+/* мобильная версия */
+@media (max-width: 480px) {
+  .main {
+    position: absolute;
+    top: 0px;              /* смещаем вниз на 100px */
+    left: 0;
+    width: 100%;             /* растягиваем по ширине экрана */
+    height: auto;            /* высота подстраивается под содержимое */
+    min-height: 360px;       /* можно задать минимальную высоту */
+
+    background-image: url("../img/main.png");
+    background-size: 100% auto;   /* растягиваем по ширине, сохраняем пропорции */
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+}
+
 
 /* BBK IT */
 .logo_BBK {
@@ -72,8 +98,7 @@
 }
 
 @media (max-width: 480px) {
-
-  .logo_BBK {
+   .logo_BBK {
     left: 16px;
     top: 20px;
 
@@ -85,12 +110,10 @@
     left: 18px;
     top: 45px;
 
-    font-size: 7px;    
+    font-size: 7px;
     letter-spacing: 0.02em;
   }
-
 }
-
 
 /* Main title */
 .main-title {
@@ -126,6 +149,30 @@
 
   text-align: left;  /* ← выравнивание по левому краю */
 }
+
+/* мобильная версия */
+@media (max-width: 480px) {
+
+  .main-title {
+    left: 20px;          /* отступ слева */
+    top: 472px;          /* смещаем вниз под фон/картинку */
+    width: 320px;        /* под экран мобильного устройства */
+    font-size: 25px;     /* уменьшаем размер шрифта */
+    line-height: 30px;   /* подбираем для читаемости */
+    letter-spacing: 0.02em;
+  }
+
+  .main-subtitle {
+    left: 20px;          /* отступ слева совпадает с заголовком */
+    top: 599px;          /* смещаем ниже заголовка */
+    width: 299px;        /* под экран */
+    font-size: 16px;     /* уменьшаем размер */
+    line-height: 20px;   /* подбираем для читаемости */
+    font-weight: 400;    /* как в десктопной версии */
+  }
+
+}
+
 
 /* хедер */
 /* Общий контейнер меню в рамке */
@@ -190,6 +237,45 @@
   user-select: none;
 }
 
+/* мобильная версия */
+@media (max-width: 480px) {
+  /* скрываем десктопное меню */
+  .header-rectangle-3 {
+    display: none;
+  }
+
+  /* показываем мобильное меню */
+  .header-mobile {
+    position: absolute;
+    top: 20px;
+    left: 228px;
+
+    display: flex;
+    gap: 15px; /* расстояние между иконками */
+  }
+
+  .header-mobile .icon {
+    width: 30px;
+    height: 30px;
+    background-color: #2D2D2D; /* как в Figma */
+    border-radius: 5px; /* можно подкорректировать под Figma */
+    cursor: pointer;
+  }
+
+  .header-mobile .telegram {
+    background: url('../img/telegram_mobil.png') no-repeat center center;
+    background-size: cover;
+  }
+  .header-mobile .whatsapp {
+    background: url('../img/whatsapp_mobil.png') no-repeat center center;
+    background-size: cover;
+  }
+  .header-mobile .burger {
+    background: url('../img/burger_mobil.png') no-repeat center center;
+    background-size: cover;
+  }
+}
+
 
 /* Логотипный блок (Текст верх / Rectangle 6) */
 .logo-frame {
@@ -230,6 +316,30 @@
   align-items: center;
   text-align: left;
 }
+
+/* мобильная версия */
+@media (max-width: 480px) {
+  .logo-frame {
+    left: 10px;           /* ближе к левому краю экрана */
+    top: 70px;            /* уменьшаем отступ сверху */
+    width: calc(100% - 20px);  /* ширина под мобильный экран (исправить) */
+    height: auto;         /* высота автоматически под содержимое */
+    padding-left: 10px;
+    gap: 10px;
+    border-radius: 20px;
+  }
+
+  .logo-image {
+    width: 60px;          /* уменьшаем размер изображения */
+    height: auto;
+  }
+
+  .logo-text {
+    font-size: 14px;      /* уменьшаем текст */
+    line-height: 16px;
+  }
+}
+
 
 /* Контейнер плашки — Frame 2 */
 .promo-card {
