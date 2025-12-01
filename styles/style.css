@@ -387,6 +387,37 @@
   color: #2D2D2D;
 }
 
+/* Мобильная версия */
+@media (max-width: 480px) {
+
+  .promo-card {
+    position: static;          /* убираем абсолют для мобильных */
+    margin: 20px auto;         /* центрируем */
+    width: 125px;              /* ширина плашки под мобилу */
+    height: auto;              /* высота по содержимому */
+    padding: 15px;             /* мягкие отступы */
+    border-radius: 20px;       /* чуть меньше радиус */
+    margin-top: 200px;
+    margin-left: 200px;
+  }
+
+  .promo-image {
+    width: 100%;               /* растянуть под ширину плашки */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .promo-text {
+    width: 100%;
+    margin-top: 12px;
+    font-size: 6.5px;           /* уменьшенный шрифт */
+    line-height: 14px;
+    text-align: left;
+  }
+}
+
+
 /* Контейнер блока поддержки */
 .support-block {
   position: absolute;
