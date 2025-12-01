@@ -1336,3 +1336,32 @@
 
     color: #2D2D2D;
 }
+
+
+/* whatsapp */
+.icon-whatsapp {
+    position: absolute;
+    height: 50px;
+    width: 50px; /* добавляем ширину, иначе фон не виден */
+    left: 50.71%;
+    right: 45.71%;
+    top: calc(50% - 50px/2 + 2676.5px);
+    cursor: pointer;
+
+    background: url('../img/whatsapp.png') no-repeat center/contain;
+}
+
+
+/* telegram */
+.icon-telegram {
+    position: absolute;
+    width: 50px;  /* добавил, чтобы иконка отображалась */
+    height: 50px;
+    left: 45.71%;
+    right: 50.71%;
+    top: 93.36%;
+    bottom: 5.82%;
+    cursor: pointer;
+
+    background: url('../img/telegram.png') no-repeat center/contain;
+}
