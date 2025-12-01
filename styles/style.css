@@ -456,6 +456,37 @@
   color: #2D2D2D;
 }
 
+/* --- Мобильная адаптация блока поддержки --- */
+@media (max-width: 480px) {
+
+  .support-block {
+    position: absolute;
+    left: 58.07%;
+    top: 39.33%;
+    width: 31.62%;
+    height: 24.42px;
+
+    border-radius: 12px;
+    padding-left: 8px;
+    gap: 6px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .support-icon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .support-text {
+    font-size: 6.5px;
+    line-height: 8px;
+    text-align: center;
+  }
+}
+
+
 /* Большая кнопка (Rectangle 7) */
 .cta-button {
   position: absolute;
@@ -497,6 +528,47 @@
 
   max-width: 440px; /* чтобы текст не вылезал */
 }
+
+/* Мобильная версия */
+@media (max-width: 480px) {
+
+  .cta-button {
+    position: absolute;
+    left: 5.33%;
+    top: 692px;
+
+    width: 85.33%;
+    height: 43.32px;
+
+    background: #2D2D2D;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+
+  .cta-icon {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+  }
+
+  .cta-text {
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: left;
+
+    font-family: 'Geologica Cursive', sans-serif;
+    color: #ffffff;
+
+    max-width: 230px; /* как в Figma */
+  }
+}
+
 
 
 /* Блок О компании */
