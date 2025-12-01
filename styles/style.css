@@ -1,3 +1,4 @@
+/* десктоп */
 .hero {
   width: 1400px;
   min-height: 6115px;
@@ -6,6 +7,16 @@
   margin: 0 auto;
   position: relative;
 }
+
+/* мобил */
+@media (max-width: 480px) {
+
+  .hero {
+    width: 360px;
+    min-height: auto;
+    background: #D7E0EB;
+  }
+ }
 
 /* главная */
 
