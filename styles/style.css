@@ -635,6 +635,62 @@
 }
 
 
+/* --- Мобильная адаптация блока О компании --- */
+@media (max-width: 480px) {
+
+  /* Сбрасываем desktop-позиционирование */
+  .about,
+  .about-title,
+  .about-subtitle,
+  .about-text {
+    position: absolute;   /* можно absolute, чтобы использовать проценты */
+  }
+
+  /* Контейнер секции */
+  .about {
+    left: 5.56%;
+    top: 15.13%;
+    width: 88.89%;
+    height: auto;          /* высота под текст */
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Заголовок */
+  .about-title {
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  /* Подзаголовок */
+  .about-subtitle {
+    left: 0;
+    top: 50px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  /* Основной текст */
+  .about-text {
+    left: 0;
+    top: 150px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+
+
+
 /* Картинка 2 */
 .image2 {
     position: absolute;
@@ -648,6 +704,23 @@
 
     transform: rotate(0deg);
     pointer-events: none; /* чтобы не мешало кликам поверх */
+}
+
+/* Мобильная версия */
+@media (max-width: 480px) {
+  .image2 {
+    position: absolute;
+    width: 350px;          /* пропорционально уменьшили */
+    height: 350px;
+    left: -90px;          /* сместили как в макете */
+    top: 730px;
+
+    background: url('../img/picture2.png') no-repeat center/cover;
+    opacity: 0.6;
+    transform: rotate(-36deg);
+
+    pointer-events: none;
+  }
 }
 
 
