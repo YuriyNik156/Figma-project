@@ -1092,7 +1092,7 @@ html, body {
 .picture-block {
   position: absolute;
   width: 660px;
-  height: 541px;
+  height: auto;
   left: 756px;
   top: 3618px;
 
